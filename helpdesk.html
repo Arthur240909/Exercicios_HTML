@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<body lang="pt-BR">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <title> Exercicio 28 - Painel de Atendimento </title>
@@ -67,7 +67,66 @@
 
                     <label for="descricao"> Descrição detalhada: </label><br>
                     <textarea id="descricao" rows="4" cols="50" placeholder="Descrevao o erro..." required></textarea><br><br>
+
+                    <button type="submit"> Enviar Chamado </button>
+                    <button type="reset"> Limpar </button>
             </form>
         </section>
+
+        <hr>
+
+        <section>
+            <h2> Chamados Recentes: </h2>
+            <table border="2">
+                <thead>
+                    <tr>
+                    <th> Setor </th>
+                    <th> ID do chamado </th>
+                    <th> Solicitante </th>
+                    <th> Prioridade </th>
+                    <th> Data de abertura </th>
+                    <th> Status </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="1">Financeiro</td>
+                        <td> #1092 </td>
+                        <td> Carlos </td>
+                        <td> Alta </td>
+                        <td> 04/08/2026 </td>
+                        <td> Em andamento </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="1">Financeiro</td>
+                        <td> #1652 </td>
+                        <td> Ana </td>
+                        <td> Media </td>
+                        <td> 31/12/2025 </td>
+                        <td> Em andamento </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="1">Financeiro</td>
+                        <td> #5092 </td>
+                        <td> Lucas </td>
+                        <td> Crítica </td>
+                        <td> 03/08/2026 </td>
+                        <td> Em andamento </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="1">Financeiro</td>
+                        <td> #1592 </td>
+                        <td> Bruno </td>
+                        <td> Baixa </td>
+                        <td> 01/07/2026 </td>
+                        <td> Em andamento </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     </main>
+    <footer>
+        <p> &copy; Arthur Gerhard 2009</p>
+    </footer>
 </body>
+</html>
